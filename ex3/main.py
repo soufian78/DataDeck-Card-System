@@ -18,7 +18,7 @@ def main():
     print("Simulating aggressive turn...")
     print("Hand: [Fire Dragon (5), Goblin Warrior (2), Lightning Bolt (3)]\n")
     turn = engine.simulate_turn()
-    print("Turn execution:")
+    print(" Turn execution:")
     print(f"Strategy: {turn.pop('strategy')}")
     print(f"Actions: {turn}\n")
     print("Game Report:")
